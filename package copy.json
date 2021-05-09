@@ -1,0 +1,81 @@
+{
+  "name": "manthebay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.15.0",
+    "npm": ">=6.4.1"
+  },
+  "scripts": {
+    "serve": "nodemon --exec babel-node src/server/server.js",
+    "dev": "webpack-dev-server --config dev.config.js --inline --hot",
+    "WDSC": "npm dev & webpack-dev-server --inline --hot --open 'Google Chrome'",
+    "WDSF": "npm dev & webpack-dev-server --inline --hot --open 'Firefox'",
+    "WDSS": "npm dev & webpack-dev-server --inline --hot --open 'Safari'",
+    "start": "sudo rm -rf public && webpack --config prod.config.js && pm2 reload ecosystem.config.js --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manTheBay/manTheBay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manTheBay/manTheBay/issues"
+  },
+  "homepage": "https://github.com/manTheBay/manTheBay#readme",
+  "dependencies": {
+    "@apollo/client": "^3.1.4",
+    "@ckeditor/ckeditor5-build-classic": "^22.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "@date-io/date-fns": "^2.8.1",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "apollo-server-express": "^2.16.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "framer-motion": "^2.6.15",
+    "graphql": "^15.3.0",
+    "graphql-type-json": "^0.3.2",
+    "history": "^5.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.20",
+    "material-table": "^1.68.0",
+    "mongoose": "^5.9.25",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.7.2",
+    "react-pose": "^4.0.10",
+    "react-router-dom": "^5.2.0",
+    "webpack-node-externals": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.0.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
