@@ -5,7 +5,6 @@ import Home from "./Public/Home/home";
 import { getCookie, checkRoute } from "./utils";
 import { Context } from "./globalState/Store";
 import Loader from "./funtionals/Loader";
-import NotFound from "./Admin/Routes/NotFound";
 
 const Routes = (props) => {
     return (

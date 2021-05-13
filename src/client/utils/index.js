@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import history from "./history";
-import menuItems from "../Admin/Components/Sidebar/menuItems";
 export const calculateTotal = (user, subject, subjectCategory) => {
   let total = 0;
   if (user && subject && user[subject]) {
