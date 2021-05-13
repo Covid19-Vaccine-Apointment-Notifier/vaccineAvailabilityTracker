@@ -1,0 +1,147 @@
+// Admin Theme Colors
+// --------------------
+
+:root {
+    /*
+     * Typography
+     * ======================================================================== */
+  
+    --font-family-base: 'Roboto', sans-serif;
+  
+    /*
+     * Layout
+     * ======================================================================== */
+  
+    --max-content-width: 1000px;
+  
+    /*
+     * Media queries breakpoints
+     * ======================================================================== */
+  
+    --screen-xs-min: 480px;  /* Extra small screen / phone */
+    --screen-sm-min: 768px;  /* Small screen / tablet */
+    --screen-md-min: 992px;  /* Medium screen / desktop */
+    --screen-lg-min: 1200px; /* Large screen / wide desktop */
+  }
+  
+  $white: #fff;
+  $black: #000;
+  $dark: #343a40;
+  $grey: #999;
+  $gray1: #F2F4F0;
+  $grey1: #6c757d;
+  $grey2: #595d6e;
+  $gray3: #C6C8C4;
+  $grey3: #c8ced3;
+  $grey4: #e3e3e3;
+  $grey5: #cccccc;
+  $grey6: #F2F4F0;
+  $gray11: #666666;
+  $gray12: #9EA5B2;
+  $gray15: #dcded9;
+  $gray18: #7E7E7E;
+  $gray19: #DCE0D8;
+  $lightGrey: #dcdcdc;
+  $mtbRed: #950000;
+  $mtbYellow: #FBC931;
+  $mtbWhite : rgb(237, 237, 237);
+  $mtbBlack :#515151;
+  $globalBg: #efeff5;
+  
+  
+  $navMenuItemBorder: #878787;
+  $navIcon: #839cf2;
+  
+  
+  $boder: #e6e6e6;
+  $border1: #6680e7;
+  $border2: #d5d5d5;
+  $border3: #dee2e6;
+  
+  
+  $dropdownHover: #5578eb;
+  $iconColor: #5578eb;
+  
+  
+  $primaryColor: #f45c27;
+  $secondaryColor: #d8e1fe;
+  
+  $globalBg: #efeff5;
+  
+  $primaryBg: #dcdcdc;
+  $secondaryBg: #f9f8fd;
+  
+  $primaryText: #222;
+  $secondaryText: #ddd;
+  
+  $labelColor: #646c9a;
+  $inputColor: #495057;
+  
+  $heading: #76838f;
+  $sidebarBg: #506ee4;
+  $iconDefault: #acb4ce;
+  
+  $link: #338DFF;
+  $linkHover: #0A3871;
+  
+  $selectionColor: #b3d4fc;
+  
+  $searchInputFocus: #ced4da;
+  
+  $interstitialList: #f5f5f5;
+  
+  $darkcyan: darkcyan;
+  $coral: coral;
+  $blue: #00BFFF;
+  $red: red;
+  $green : #9CB234;
+  $orange: #EB6428;
+  
+  // Sizes
+  $size03: 0.019rem;  //.3px
+  $size1: 0.063rem;   // 1px
+  $size2: 0.125rem;   // 2px
+  $size3: 0.188rem;   // 3px
+  $size4: 0.25rem;    // 4px
+  $size5: 0.313rem;   // 5px
+  $size6: 0.375rem;   // 6px
+  $size7: 0.438rem;   // 7px
+  $size8: 0.5rem;     // 8px
+  $size9: 0.563rem;   // 9px
+  $size10: 0.625rem;  // 10px
+  $size11: 0.688rem;  // 11px
+  $size12: 0.75rem;   // 12px
+  $size13: 0.813rem;  // 13px
+  $size14: 0.875rem;  // 14px
+  $size15: 0.938rem;  // 15px
+  $size16: 1rem;      // 16px
+  $size17: 1.063rem;  // 17px
+  $size18: 1.125rem;  // 18px
+  $size19: 1.188rem;  // 19px
+  $size20: 1.25rem;   // 20px
+  $size21: 1.313rem;   // 21px
+  $size23: 1.438rem;  // 23px
+  $size24: 1.5rem;    // 24px
+  $size25: 1.563rem;  //25px
+  $size27: 1.6875rem; //27px
+  $size28: 1.75rem;  //28px
+  $size30: 1.875rem;  //30px
+  $size38: 2.375rem;  //38px
+  $size39: 2.4375rem;  //39px
+  $size40: 2.5rem;    //40px
+  $size42: 2.625rem; //42px
+  $size44: 2.75rem;    //44px
+  $size50: 3.125rem;  //50px
+  $size55: 3.438rem;  //55px
+  $size60: 3.75rem;  //60px
+  $size64: 4rem;  //64px
+  $size68: 4.25rem; //68px
+  $size70: 4.375rem;  //70px
+  $size78: 4.875rem;  //78px
+  $size120: 7.5rem;   //120px
+  $size280: 17.5rem;    //280px
+  $size350: 21.875rem;  //350px
+  $size360: 22.5rem;//360px
+  
+  
+  
