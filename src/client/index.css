@@ -1,0 +1,49 @@
+body {
+  background-color: #e2e2e2;
+}
+
+.auth-form {
+  background: #13232fe6;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.auth-form input {
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.auth-form input:focus {
+  border-color: #03c9a9;
+  box-shadow: 0 0 0 2px #03c9a94f;
+}
+
+.auth-errors {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 12px;
+}
+
+.app-btn-primary {
+  background-color: #03c9a9;
+  color: #fff !important;
+  transition: all 0.3s;
+}
+
+.app-btn-primary:not(:disabled):hover {
+  background-color: #03b094;
+}
+
+.app-btn-primary:focus {
+  outline: 0;
+  background-color: #03b094;
+  box-shadow: unset;
+}
+
+.app-text-primary {
+  color: #03c9a9;
+}
+
+.h-100v {
+  height: 100vh;
+}
