@@ -17,7 +17,6 @@ const Routes = (props) => {
               <Home
               location={location}
               key="home"
-              loggedInUser={user.fetchLoggedInUser.data}
             />
           }
         />
